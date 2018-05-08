@@ -15,7 +15,7 @@
         <module>mircea-challenge</module>
         <module>victor-singleton</module>
         <module>servlet-sample</module>
-        <module>input-outpul-sample</module>
+        <module>smtp-sample</module>
     </modules>
 
 
