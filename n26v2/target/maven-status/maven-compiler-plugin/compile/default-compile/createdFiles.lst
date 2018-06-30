@@ -1,0 +1,6 @@
+club\cheapok\service\StatisticsService.class
+club\cheapok\boundary\N26EndPoints.class
+club\cheapok\Iaka.class
+club\cheapok\entity\TransactionItem.class
+club\cheapok\entity\TransactionItemSpecification.class
+club\cheapok\JaxRSConfig.class
