@@ -1,9 +1,11 @@
-package club.cheapok.entity;
+package club.cheapok.model;
 
 public class TransactionItem {
-private double amount;
-private long timestamp;
+    private double amount;
+    private long timestamp;
 
+    public TransactionItem() {
+    }
 
     public TransactionItem(final double amount, final long timestamp) {
         this.amount = amount;
@@ -24,13 +26,5 @@ private long timestamp;
 
     public void setTimestamp(final long timestamp) {
         this.timestamp = timestamp;
-    }
-
-    @Override
-    public String toString() {
-        return "TransactionItem{" +
-                "amount=" + amount +
-                ", timestamp=" + timestamp +
-                '}';
     }
 }

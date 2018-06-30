@@ -1,15 +1,13 @@
-package club.cheapok.entity;
+package club.cheapok.model;
 
+import club.cheapok.constraint.TransactionItemSpecificationConstraint;
+
+@TransactionItemSpecificationConstraint
 public class TransactionItemSpecification {
-private double amount;
-private long timestamp;
+    private double amount;
+    private long timestamp;
 
     public TransactionItemSpecification() {
-    }
-
-    public TransactionItemSpecification(final double amount, final long timestamp) {
-        this.amount = amount;
-        this.timestamp = timestamp;
     }
 
     public double getAmount() {
@@ -27,6 +25,5 @@ private long timestamp;
     public void setTimestamp(final long timestamp) {
         this.timestamp = timestamp;
     }
-
 
 }
